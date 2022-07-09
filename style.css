@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+main {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main img {
+    width: 140px;
+    margin-bottom: 20px;
+    animation: imganimate 1s both;
+    animation-delay: .3s;
+}
+
+@keyframes imganimate {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.name-ig{
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    animation: imganimate 1s both;
+    animation-delay: .9s;
+}
+
+.sosmed{
+    background-color: black;
+    animation: imganimate 1s both;
+    animation-delay: 1s;
+}
+.sosmed2{
+    background-color: #1877F2;
+    animation: imganimate 1s both;
+    animation-delay: 1.3s;
+}
+.sosmed3{
+    background-color: #43C554;
+    animation: imganimate 1s both;
+    animation-delay: 1.6s;
+}
+.sosmed4{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); 
+    animation: imganimate 1s both;
+    animation-delay: 1.9s;
+}
+.sosmed{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    border-radius: 10px;
+    width: 80vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 0px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.sosmed img{
+    width: 40px;
+    margin-right: 13px;
+}
+.sosmed p {
+    font-size: 22px;
+}
